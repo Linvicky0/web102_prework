@@ -29,12 +29,7 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
-    // new_div = document.createElement("div");
-    // new_div.classList.add("game-card");
-    // new_div.innerHTML = `
-    // <h1>hello</h1>`
-    // gamesContainer.appendChild(new_div);
-
+ 
     games.forEach(element => {
         const new_div = document.createElement("div");
         new_div.classList.add("game-card");
